@@ -1,4 +1,7 @@
 # CHANGELOG
+**v5.1.14**
+* pushing large version gap to leave room for master, which likely won't ever get updated anyway, but to be safe. 
+    * Fixed issue with xmldom missing by default on newer node versions, due to cordova-node-xcode needing a version bump (valid alternative to this).
 **v5.1.2**
 * Updating package.json to fix vulnerabilites
     * Merged from [#174](https://github.com/dpa99c/cordova-custom-config/pull/174)
